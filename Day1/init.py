@@ -33,6 +33,15 @@ print(f' type(isShowValType) = {type(isShowVal)}')
 stringValue = """HelloWrold"""
 print(f' type(stringValueType) = {type(stringValue)}')
 
+#字符串截取
+str = 'Hello World!'
+print(f'str[2] = {str[2]}')
+print(f'str[-1] = {str[-1]}')
+print(f'str[0:3] = {str[0:3]}')
+print(f'str[-1:0] = {str[-1:0]}')
+print(f'str[-1:] = {str[-1:]}')
+print(f'str[7:22] = {str[10:22]}')
+
 # List列表类型，键有序、可重复、可拓展
 listValue = ['HelloWorld', "I", "am", "a", 'Chinese', 'am', 'Chinese']
 print(f'copyTupleValue = {listValue}, type(listValueType) = {type(listValue)}')
